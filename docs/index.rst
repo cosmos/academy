@@ -24,36 +24,6 @@ New here? Walk through some introductory content to get up to speed.
 
    content/introduction.rst
 
-Testnets
-========
-
-Either create you own (a good first step) or join an existing testnet.
-
-.. toctree::
-   :maxdepth: 2
-
-   content/testnets.rst
-
-App Development
-===============
-
-Apps can be built either using the SDK or in any language for which an ABCI server exists.
-
-.. toctree::
-   :maxdepth: 2
-
-   content/app-development.rst
-
-Read The Docs
-=============
-
-Several core repositories have their tutorials and documentation versioned directly in the repo then built and hosted by Read The Docs. Here you get an overview of our core documentation.
-
-.. toctree::
-   :maxdepth: 2
-
-   content/read-the-docs.rst
-
 Tendermint & Cosmos
 ===================
 
@@ -64,15 +34,26 @@ Cosmos is powered by code from two GitHub organizations: Tendermint and Cosmos. 
 
    content/tendermint-and-cosmos.rst
 
-Concepts
-========
+Application Development
+=======================
 
-Things that require more explanation than the glossary can provide
+Discover the various development frameworks available to build your blockchain application.
+
 
 .. toctree::
    :maxdepth: 2
 
-   content/concept.rst
+   content/app-development.rst
+
+Testnets
+========
+
+Create a testnet for your application or join an existing one.
+
+.. toctree::
+   :maxdepth: 2
+
+   content/testnets.rst
 
 Glossary
 ========
@@ -84,25 +65,16 @@ A bunch of words defined
 
    content/glossary.rst
 
-Blog
-====
 
-A list of all articles published on the Medium blog.
+Concepts
+========
 
-.. toctree::
-   :maxdepth: 2
-
-   content/medium-articles.rst
-
-Videos
-======
-
-Eat lunch at your desk and watch some YouTube.
+Things that require more explanation than the glossary can provide
 
 .. toctree::
    :maxdepth: 2
 
-   content/videos.rst
+   content/concepts.rst
 
 Research
 ========
@@ -113,6 +85,16 @@ Here you'll find links to any and all technical research such as links to specif
    :maxdepth: 2
 
    content/research.rst
+
+Media
+=====
+
+Blogs and videos
+
+.. toctree::
+   :maxdepth: 2
+
+   content/media.rst
 
 Community
 =========

@@ -1,5 +1,5 @@
-App Development
-===============
+Application Development
+=======================
 
 SDK
 ---
