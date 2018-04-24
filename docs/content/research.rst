@@ -23,3 +23,8 @@ Specifications
 --------------
 
 Three repositories currently contain detailed specifications: Tendermint, ABCI, and Cosmos SDK. TODO see #33; each repo has this file in a different place :(
+
+Research Papers
+---------------
+
+Curate list of relevant papers not written by us.

@@ -1,4 +1,4 @@
 External Resources
 ==================
 
-links to content/examples/whatever produced by contributors outside the organization
+This section will eventually contain a curated educational content produced by external contributors.
