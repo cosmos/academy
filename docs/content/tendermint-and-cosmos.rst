@@ -1,7 +1,7 @@
 Tendermint & Cosmos
 ===================
 
-We're building a lot of software under two different GitHub organizations:
+We are building a lot of software under two different GitHub organizations:
 
 - `Tendermint <https://github.com/tendermint>`__ and,
 - `Cosmos <https://github.com/cosmos>`__
