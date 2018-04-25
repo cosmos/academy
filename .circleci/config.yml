@@ -8,7 +8,8 @@ jobs:
     steps:
       - checkout
       - run:
-          command: cd ~/academy/docs && sudo pip install -r requirements.txt
+          command: cd ~/academy/docs && sudo pip install -r requirements.txt && make html
+
   test:
     docker:
       - image: circleci/python
@@ -22,4 +23,3 @@ workflows:
   test-suite:
     jobs:
       - build
-      - test
