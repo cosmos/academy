@@ -15,6 +15,6 @@ Join
 
 For those who want to either run a full node or become a validator by joining the latest Cosmos testnet, see the `Cosmos testnet repo README <https://github.com/cosmos/testnets/blob/master/README.md>`__.
 
-End-users who want to run the UI should download the `latest Voyager binary <https://github.com/cosmos/voyager/releases>`__. (TODO explain this better)
+End-users who want to run the UI should download the `latest Voyager binary <https://github.com/cosmos/voyager/releases>`__.
 
 There are no long-running Tendermint testnets currently maintained, but you can see the `Tendermint testnet repo <https://github.com/tendermint/testnets>`__ for archives of previous testnets.

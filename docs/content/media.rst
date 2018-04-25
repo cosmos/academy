@@ -13,6 +13,7 @@ The following is a list of relevant articles published on our blog. `Go to Mediu
 - `Technology Choices When Building Your Own Blockchain <https://blog.cosmos.network/technology-choices-when-building-your-own-blockchain-a15385cf59bd>`__
 - `A New Technology Stack for Alternative Economics <https://blog.cosmos.network/social-impact-thru-alternative-economic-systems-operation-ubi-63b274955028>`__
 - `Understanding the Basics of a Proof-of-Stake Security Model <https://blog.cosmos.network/understanding-the-basics-of-a-proof-of-stake-security-model-de3b3e160710>`__
+- `Consensus Compare: Casper vs. Tendermint <https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae>`__
 - `Medium needs Micropayments <https://blog.cosmos.network/medium-needs-micropayment-7088265a7d35>`__
 - `Why We Are Building the Internet of Blockchains <https://blog.cosmos.network/why-we-are-building-the-internet-of-blockchains-6e38f379669>`__
 - `https://blog.cosmos.network/cosmos-creating-interoperable-blockchains-part-1-2e7b747515d0 <https://blog.cosmos.network/cosmos-creating-interoperable-blockchains-part-1-2e7b747515d0>`__

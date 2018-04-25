@@ -8,7 +8,16 @@ We are building a lot of software under two different GitHub organizations:
 
 Repositories are classified as either "Core" or "Secondary" where the former generally produce binaries or code consumable by users and the latter provide building blocks for the former. Note that the status of "Secondary" repos is subject to change (i.e., they into "Core" repos) as we consolidate over time.
 
-- TODO, still missing a bunch of relevant public repos
+Read The Docs
+-------------
+
+Three core repositories have their documentation hosted on individual `Read The Docs <https://readthedocs.org/>`__ sites. This allows the docs to be versioned alongside the code itself. As well, each of these projects is sufficiently independent to merit their own documentation.
+
+- http://tendermint.readthedocs.io/en/master/
+- http://ethermint.readthedocs.io/en/master/
+- http://cosmos-sdk.readthedocs.io/en/master/
+
+Docs are built from the ``docs/`` directory in a project's respective repository. From within that directory you can run ``make html`` to build the docs then ``open _build/html/index.html`` to browse them locally.
 
 Tendermint
 ----------
@@ -16,15 +25,12 @@ Tendermint
 Core Repositories
 ~~~~~~~~~~~~~~~~~
 
-blurb 
-
 Tendermint
 ^^^^^^^^^^
 
 Tendermint Core is Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines.
 
 - `GitHub <https://github.com/tendermint/tendermint>`__
-- `Read The Docs <http://tendermint.readthedocs.io/en/master/>`__
 - `Specification <https://github.com/tendermint/tendermint/tree/master/docs/specification/new-spec>`__ see issue #33 about spec
 
 ABCI
@@ -41,12 +47,9 @@ Ethermint
 Ethereum powered by Tendermint consensus
 
 - `GitHub <https://github.com/tendermint/ethermint>`__
-- `Read The Docs <http://ethermint.readthedocs.io/en/master/>`__
 
 Secondary Repositories
 ~~~~~~~~~~~~~~~~~~~~~~
-
-blurb
 
 Go-amino
 ^^^^^^^^
@@ -74,7 +77,6 @@ Cosmos SDK
 The Cosmos SDK is a framework for building multi-asset Proof-of-Stake (PoS) blockchains on the Cosmos network.
 
 - `GitHub <https://github.com/cosmos/cosmos-sdk>`__
-- `Read The Docs <http://cosmos-sdk.readthedocs.io/en/master>`__
 - `Specification <https://github.com/cosmos/cosmos-sdk/tree/master/docs/spec>`__ see issue #33 about spec
 
 Voyager
@@ -91,29 +93,3 @@ Lotion JS
 Lotion is a new way to create blockchain apps in JavaScript, which aims to make writing new blockchains fast and fun.
 
 - `GitHub <https://github.com/keppel/lotion>`__
-
-
-Read The Docs
--------------
-
-Three core repositories have their documentation hosted on individual `Read The Docs <https://readthedocs.org/>`__ sites. This allows the docs to be versioned alongside the code itself. As well, each of these projects is sufficiently independent to merit their own documentation.
-
-Docs are built from the ``docs/`` directory in a respective repository. From within that directory you can run ``make html`` to build the docs then ``open _build/html/index.html`` to browse them locally.
-
-Tendermint
-~~~~~~~~~~
-
-- http://tendermint.readthedocs.io/en/master/ built from:
-- https://github.com/tendermint/tendermint/tree/master/docs
-
-Cosmos SDK
-~~~~~~~~~~
-
-- http://cosmos-sdk.readthedocs.io/en/master/ built from:
-- https://github.com/cosmos/cosmos-sdk/tree/master/docs
-
-Ethermint
-~~~~~~~~~
-
-- http://ethermint.readthedocs.io/en/master/ built from:
-- https://github.com/tendermint/ethermint/tree/master/docs

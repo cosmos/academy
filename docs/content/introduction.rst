@@ -13,7 +13,7 @@ Talks
 Articles
 --------
 
-TODO
+See the `Media page <./media.html>`__ for a curated list of articles, roughly in order of relevance.
 
 Code Examples
 -------------

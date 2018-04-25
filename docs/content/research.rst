@@ -22,7 +22,7 @@ For a deep dive on Tendermint, check out Ethan Buchman's thesis:
 Specifications
 --------------
 
-Three repositories currently contain detailed specifications: Tendermint, ABCI, and Cosmos SDK. TODO see #33; each repo has this file in a different place :(
+Three repositories currently contain detailed specifications: Tendermint, ABCI, and Cosmos SDK.
 
 Research Papers
 ---------------

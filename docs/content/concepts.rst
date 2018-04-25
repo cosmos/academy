@@ -6,4 +6,4 @@ In no particular order:
 IBC
 ---
 
-TODO: issue #26
+Forthcoming: migrated from GitBooks
