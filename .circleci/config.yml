@@ -4,19 +4,11 @@ jobs:
   build:
     working_directory: ~/academy
     docker:
-      - image: circleci/python
+      - image: circleci/python:2.7
     steps:
       - checkout
       - run:
           command: cd ~/academy/docs && sudo pip install -r requirements.txt && make html
-
-  test:
-    docker:
-      - image: circleci/python
-    steps:
-      - checkout
-      - run:
-          command: cd ~/academy/docs && make html
 
 workflows:
   version: 2
