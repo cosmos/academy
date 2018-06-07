@@ -51,7 +51,7 @@ Glossary
 A bunch of words defined
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    content/glossary.md
 
